@@ -1,33 +1,27 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
-        
+    background-color: #231F20;
+
 }
 
 #content {
-  border-radius: 25px;
-  background: #f00;
-  padding: 20px; 
-  width: 500px;
-  height: 500px;
-  opacity: 0.1;  
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;    
+    position: relative;
+    border-radius: 25px;
+    background: #f00;
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    z-index: 999;
+    opacity: 0.5;
+    top: 10%;
 }
 
-#particles-js
-{
+#particles-js canvas {
+    width: 100%;
     height: 100%;
-    background: #262626;
-    color: white;
+    position: absolute;
+    z-index: 0;
 }
-
-
-
-    
-    
-
